@@ -1,0 +1,48 @@
+.details-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.details-img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.back-btn {
+  padding: 8px 16px;
+  background: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.back-btn:hover {
+  background: black;
+}
+
+.buy-btn {
+  margin-top: 20px;
+  padding: 12px 20px;
+  background: #ff3b3b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.buy-btn:hover {
+  background: #cc0000;
+}
+
+.price {
+  font-size: 22px;
+  font-weight: bold;
+}
